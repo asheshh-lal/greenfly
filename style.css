@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+
+
+body {
+  font-family: 'Heebo', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: #32a96c;
+}
+
+.toggle2{
+  cursor: pointer;
+  background-color: white;
+  color: var(--secondary-color);
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px;
+  top: 100px;
+}
+
+
+.timer-container{
+  font-size: 60px;
+}
+
+#userInput{
+  border-radius: 4px;
+  font-size: 18px;
+  width:90px
+}
